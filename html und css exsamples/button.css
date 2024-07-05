@@ -1,0 +1,11 @@
+button{
+  background-color: #008000;
+  color: white;
+  padding: 8px 60px;
+  border: none;
+}
+button:hover{
+  background-color: #009000;
+  cursor: pointer;
+  transition: 125ms;
+}

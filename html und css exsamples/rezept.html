@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="button.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="fonts/raleway-v34-latin-regular.woff2">
+  <style>
+    
+    body{
+      font-family: 'Raleway';
+      
+    }
+
+    h1{
+      font-size: 40px;
+    }
+
+    .recipe1img{
+      background-image: url(salmone.jpg);
+      width: 100%;
+      height: 200px;
+      background-size: cover;
+      background-position: 40%;
+    }
+
+    .imagesection{
+      
+      padding: 50px 100px;
+      align-items: center;
+      flex-direction: column;}
+    svg{
+      height: 15px;
+    }
+    .svg{
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      background-color:  rgba(0, 0, 0, 0.1);
+      background-size: contain;
+      padding: 4px;
+      max-width: 100px;
+    }
+
+    .svgcontainer{
+      display: flex;
+      gap: 20px;
+      padding-top: 32px;
+      }
+
+    .rechnersection, .zubereitungsection {
+      padding: 0 100px;
+      
+  
+    }
+    .inputcont{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    input{
+      margin-left: 16px;
+      height: 24px;
+      max-width: 200px;
+      min-width: 100px;
+    }
+
+    .list{
+      display: flex;
+    }
+    ul{
+    width: 100%;
+    list-style-type:none;
+    padding: 0;
+    
+  }
+    .leftul{
+      max-width: 60px;
+
+    }
+  li:nth-child(odd){
+    background: rgba(0, 0, 0, 0.1);
+  }
+  li{
+    padding: 16px;
+  }
+
+  .profile img{
+    width: 120px;
+    border-radius: 60px;
+  }
+  .profile{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    font-size: 32px;
+  }
+  .zubereitungsection{
+    padding-bottom: 50px;
+  }
+
+  
+
+  </style>
+  
+
+
+</head>
+
+
+
+
+<body>
+
+ <header>
+    <img src="img/logo.png" alt="logo">
+    <div class="navLink" >
+      <a href="#">Start</a>
+      <a href="#">Rezept des Tages</a>
+      <a href="#">Kontakt</a>
+      <a href="#">Impressum</a>
+    </div>
+  </header>
+
+  <section class="imagesection">
+    <div class="recipe1">
+      <h1>Pasta al salmone</h1>
+      <div class="recipe1img"></div>
+    </div>
+    <div class="svgcontainer">
+      <div class="svg"> <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="clock" class="svg-inline--fa fa-clock fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"></path> 20</svg>30 Min</div>
+      <div class="svg"> <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="brain" class="svg-inline--fa fa-brain fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M208 0c-29.9 0-54.7 20.5-61.8 48.2-.8 0-1.4-.2-2.2-.2-35.3 0-64 28.7-64 64 0 4.8.6 9.5 1.7 14C52.5 138 32 166.6 32 200c0 12.6 3.2 24.3 8.3 34.9C16.3 248.7 0 274.3 0 304c0 33.3 20.4 61.9 49.4 73.9-.9 4.6-1.4 9.3-1.4 14.1 0 39.8 32.2 72 72 72 4.1 0 8.1-.5 12-1.2 9.6 28.5 36.2 49.2 68 49.2 39.8 0 72-32.2 72-72V64c0-35.3-28.7-64-64-64zm368 304c0-29.7-16.3-55.3-40.3-69.1 5.2-10.6 8.3-22.3 8.3-34.9 0-33.4-20.5-62-49.7-74 1-4.5 1.7-9.2 1.7-14 0-35.3-28.7-64-64-64-.8 0-1.5.2-2.2.2C422.7 20.5 397.9 0 368 0c-35.3 0-64 28.6-64 64v376c0 39.8 32.2 72 72 72 31.8 0 58.4-20.7 68-49.2 3.9.7 7.9 1.2 12 1.2 39.8 0 72-32.2 72-72 0-4.8-.5-9.5-1.4-14.1 29-12 49.4-40.6 49.4-73.9z"></path></svg>Simpel</div>
+      <div class="svg"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="calendar-alt" class="svg-inline--fa fa-calendar-alt fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"></path></svg> 29.05.2024</div>
+    </div>
+  </section>
+
+
+  <section class="rechnersection">
+    <div class="inputcont">
+     Zutaten für <input type="number" min="1" value="1" max="20"> <button>Portionen</button>
+    </div>
+    <div class="list">
+      <ul class="leftul">
+        <li>60g</li>
+        <li>10ml</li>
+        <li>1</li>
+        <li>50ml</li>
+        <li>50ml</li>
+        <li>125g</li>
+        <li>10g</li>
+        <li>5g</li>
+        <li>5ml</li>
+      </ul>
+      <ul>
+        <li>Lachs</li>
+        <li>Olivenöl</li>
+        <li>Knoblauchzehe(n)</li>
+        <li>Sahne</li>
+        <li>Gemußefond</li>
+        <li>Nudeln</li>
+        <li>Petersilie</li>
+        <li>Dill</li>
+        <li>Zitronensaft</li>
+      </ul>
+    </div>
+
+
+
+
+
+
+
+  </section>
+
+  <section class="zubereitungsection">
+    <h2>Zubereitung</h2>
+    <div>
+      <div class="svg">
+        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="clock" class="svg-inline--fa fa-clock fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"></path> 20</svg>30 Min
+      </div>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+       Impedit velit perspiciatis iure officiis, dolores facere deleniti 
+       sit consectetur alias! Animi explicabo exercitationem aperiam delectus sapiente nobis architecto,
+        nostrum minima labore!
+      </p>
+    <h2>Rezept erstellt von</h2>
+    <div class="profile">
+      <img src="img/profile.png" alt="profile">
+      <span>Paul</span>
+    </div>
+  </section>
+
+
+
+<footer>
+  <div class="footersection">
+    <div class="footerlink">
+      <a href="#">Paul Ivan</a>
+      <a href="#">Tristan Sextroh</a>
+      <a href="#">David Pyritz</a>
+    </div>
+    <a href="#"><img id="logofooter" src="img/logo.png" alt=""></a>
+    <div class="footerlink">
+      <a href="#">Impressum</a>
+      <a href="#">Datenschutz</a>
+      <a href="#">(c) Copyright 2024</a>
+    </div>
+  </div>
+  <div class="social">
+    <a href="#"><img src="img/logo/facebook_logo.png" alt=""></a>
+    <a href="#"><img src="img/logo/instagram_logo.png" alt=""></a>
+    <a href="#"><img src="img/logo/tripadvisor_logo.png" alt=""></a>
+  </div>
+</footer>
+
+
+
+
+
+  
+  
+
+
+</body>
+</html>

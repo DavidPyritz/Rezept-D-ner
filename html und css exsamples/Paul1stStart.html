@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="button.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="footer.css">
+  <style >
+    
+   
+    *{
+      margin:0 ;
+      scroll-behavior: smooth;
+    }
+    
+    .topReceipt{
+     padding: 50px 100px;
+     display: flex;
+     gap: 40px;
+     justify-content: center;
+    }
+
+    .topReceipt img, .wok img{
+      height: 200px;
+      width: 250px;
+    }
+    .tripleReceipt{
+      background-color: #EFEFEF;
+      padding: 50px 100px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .receiptContainer{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 16px;
+      
+    }
+    .imagesCont{
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+    }
+    .imgandtextcont{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      font-size: 14px;
+      justify-content: space-between;
+    }
+    .imgandtextcont img{ 
+      width: 180px;
+      height: 180px;
+      border-radius: 20px;
+      
+    }
+    .imgtext{
+      margin-top: 8px;
+    }
+    .wok{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 50px 100px;
+    }
+    .imgandtextwok{
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 16px;
+    }
+  
+   
+  </style>
+
+
+
+</head>
+<body>
+  <header>
+    <a href="#"><img src="img/logo.png" alt="logo"></a>
+    <div class="navLink">
+      <a href="#">Start</a>
+      <a href="#">Rezept des Tages</a>
+      <a href="#">Kontakt</a>
+      <a href="#">Impressum</a>
+    </div>
+  </header>
+
+
+  <section class="topReceipt">
+    <div>
+      <img src="pasta.png" alt="Pasta">
+    </div>
+    <div>
+      <h3>Spaghetti Bolognese</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit  Perspiciatis corrupti enim eveniet itaque placeat et. 
+         Hic consequatur exercitationem nihil, iure fuga ab, atque nemo reprehenderit vitae modi amet fugit repellendus.</p>
+      <button class="button" style="src: local(button);">Rezept Öffnen</button>
+    </div>
+
+  </section>
+  
+
+
+  <section class="tripleReceipt">
+    <h3>Lust Auf was Neues ?</h3>
+    <div class="receiptContainer">
+     
+      <div class="imagesCont">
+        <div class="imgandtextcont">
+          <img src="pasta.png" alt="" >
+          <span class="imgtext">Bild beschreibung</span>
+        </div>
+        <div class="imgandtextcont">
+          <img src="pasta.png" alt="" >
+          <span class="imgtext">Bild beschreibung</span>
+        </div>
+        <div class="imgandtextcont">
+          <img src="pasta.png" alt="">
+          <span class="imgtext">Bild beschreibung</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="wok">
+    <h3> Pfanne vs. Wok - Was ist besser?</h3>
+    <div class="imgandtextwok">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+         Debitis placeat, pariatur consectetur maiores voluptatibus aliquam expedita perferendis quasi optio dicta doloremque iusto quis,
+         modi a incidunt? Eaque corrupti odit voluptatem.</p>
+      <img src="img/wok.jpg" alt="">
+    </div>
+
+  </section>
+
+  <footer>
+    <div class="footersection">
+      <div class="footerlink">
+        <a href="rezept.html">Paul Ivan</a>
+        <a href="#">Tristan Sextroh</a> 
+        <a href="#">David Pyritz</a>
+      </div>
+      <a href="Paul1stStart.html"><img src="img/logo.png" alt="" id="logofooter"></a>
+      <div class="footerlink">
+        <a href="#">Impressum</a>
+        <a href="#">Datenschutz</a>
+        <a href="#">(c) Copyright 2024</a>
+      </div>
+    </div>
+    <div class="social">
+      <a href="https://www.facebook.com/" target="_blank"><img src="img/logo/facebook_logo.png" alt=""></a>
+      <a href="https://www.instagram.com/" target="_blank"><img src="img/logo/instagram_logo.png" alt=""></a>
+      <a href="https://www.tripadvisor.com/" target="_blank"><img src="img/logo/tripadvisor_logo.png" alt=""></a>
+    </div>
+  </footer>
+</body>
+</html>

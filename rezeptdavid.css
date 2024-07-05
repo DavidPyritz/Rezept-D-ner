@@ -1,0 +1,478 @@
+html {
+    scroll-behavior: smooth;
+    width: 1440px;
+    margin: auto;
+}
+
+@media(max-width: 1469px) {
+    html {
+        width: 280px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0%;
+        margin-right: 0%;
+
+    }
+}
+
+@media(max-width: 950px) {
+    html {
+        width: 280px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+}
+
+
+body {
+    margin: 0;
+    font-family: "Raleway";
+}
+
+@media(max-width: 1469px) {
+    body {
+        width: 280px;
+
+
+
+    }
+}
+
+.aot {
+    height: 145px;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+}
+
+@media(max-width: 1469px) {
+    .aot {
+        width: 70%;
+    }
+}
+
+.headerstyle {
+    height: 145px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+}
+
+@media(max-width: 1469px) {
+    .headerstyle {
+        display: flex;
+        text-align: center;
+        width: 280px;
+    }
+}
+
+@media(max-width: 950px) {
+    .imgquery1 {
+        display: flex;
+        margin-right: 1150px;
+        height: 70px;
+        text-align: center;
+        justify-content: center;
+        width: 280px;
+    }
+}
+
+@media(max-width: 1469px) {
+    .media1 {
+        width: 50%;
+        text-align: center
+    }
+}
+
+.headerstyle a {
+    color: black;
+    text-decoration: none;
+}
+
+.seperator {
+    height: 1px;
+    width: 100%;
+    box-shadow: 0px 4px 2px 2px #f2f2f2;
+}
+
+@media(max-width: 1469px) {
+    .seperator {
+        width: 290px;
+    }
+}
+
+.navLink {
+    margin-top: 102px;
+    font-size: 24px;
+    display: flex;
+    gap: 24px;
+    font-weight: 600;
+    margin-left: 505px;
+}
+
+@media(max-width: 1469px) {
+    .navLink {
+        display: none;
+
+    }
+}
+
+.navLink :hover {
+    color: #008000;
+    font-weight: 600;
+    text-decoration: underline 3px;
+    text-underline-offset: 12px;
+}
+
+.logopicture {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-grow: 100px;
+}
+
+.atf-image {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    border: 3px inset #87610f;
+}
+
+@media(max-width: 1469px) {
+    .atf-image {
+        width: 280px;
+        display: flex;
+    }
+}
+
+.infoline {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+    gap: 26px;
+}
+
+@media(max-width: 1469px) {
+    .infoline {
+        width: 280px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+.infoline1 {
+    display: flex;
+    align-items: center;
+    background-color: #EFEFEF;
+    border-radius: 10px;
+    gap: 16px;
+    width: 120px;
+    height: 40px;
+}
+
+.infoline2 {
+    display: flex;
+    align-items: center;
+    background-color: #EFEFEF;
+    border-radius: 10px;
+    gap: 16px;
+    width: 125px;
+    height: 40px;
+}
+
+.infoline3 {
+    display: flex;
+    align-items: center;
+    background-color: #EFEFEF;
+    border-radius: 10px;
+    gap: 16px;
+    width: 144px;
+    height: 40px;
+}
+
+.infoline4 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+    gap: 26px;
+}
+
+@media(max-width: 1469px) {
+    .infoline4 {
+        width: 280px;
+        justify-content: center;
+    }
+}
+
+.infoline5 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 26px;
+}
+
+@media(max-width: 1469px) {
+    .infoline5 {
+        width: 280px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+.infoline6 {
+    display: flex;
+    align-items: center;
+    background-color: #EFEFEF;
+    border-radius: 10px;
+    gap: 16px;
+    width: 145px;
+    height: 40px;
+}
+
+.infoline7 {
+    display: flex;
+    align-items: center;
+    background-color: #EFEFEF;
+    border-radius: 10px;
+    gap: 16px;
+    width: 265px;
+    height: 40px;
+}
+
+.infoImage {
+    height: 24px;
+    width: auto;
+    margin-left: 16px;
+    object-fit: contain;
+}
+
+.seperator2 {
+    display: flex;
+    margin-top: 100px;
+    font-weight: 600;
+    height: 1px;
+    box-shadow: 0px 48px 0.1px 1px #f2f2f2;
+}
+
+@media(max-width: 1469px) {
+    .seperator2 {
+        width: 290px;
+    }
+}
+
+.numberofpeople {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+@media(max-width: 1469px) {
+    .numberofpeople {
+        width: 280px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+}
+
+.inputfieldstyle {
+    line-height: 30px;
+    width: 200px;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    border-width: 0.5px;
+}
+
+.feldinputstyle {
+    display: flex;
+}
+
+@media(max-width: 1469px) {
+    .feldinputstyle {
+        width: 280px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+.inputfieldstyle2 {
+    line-height: 30px;
+    background-color: #008000;
+    color: white;
+    width: 200px;
+    border-width: 0.5px;
+}
+
+table {
+    font-family: 'Raleway';
+    margin-top: 50px;
+    border-spacing: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+@media(max-width: 1469px) {
+    .tablequery {
+        padding: 0px 50px;
+    }
+}
+
+
+tr {
+    border-radius: 20px;
+}
+
+table td,
+table th {
+    padding: 8px;
+}
+
+table tr:nth-child(even) {
+    background-color: white;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+.festival-info {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+@media(max-width: 1469px) {
+    .festival-info {
+        width: 280px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+.infoline8 {
+    display: flex;
+    gap: 16px;
+    margin-top: 30px;
+}
+
+@media(max-width: 1469px) {
+    .infoline8 {
+        width: 280px;
+        justify-content: center;
+    }
+}
+
+.infoline9 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 5px;
+}
+
+@media(max-width: 1469px) {
+    .infoline9 {
+        width: 280px;
+        justify-content: center;
+    }
+}
+
+.infoImage2 {
+    width: 80px;
+}
+
+.footer {
+    display: flex;
+    margin-top: 100px;
+    font-weight: 600;
+    justify-content: space-evenly;
+    background-color: rgb(65, 59, 59, 0.8);
+    font-family: "Raleway", bold;
+    font-size: 20px;
+    color: white;
+    height: 144px;
+}
+
+@media(max-width: 1469px) {
+    .footer {
+        width: 280px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 1469px) {
+    .infoline9 {
+        width: 280px;
+        justify-content: center;
+    }
+}
+
+.container10 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Raleway';
+    font-weight: 400;
+}
+
+.container11 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    font-weight: bold;
+    color: #9F0908;
+}
+
+b {
+
+    font-weight: 400;
+}
+
+.atf-image5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
